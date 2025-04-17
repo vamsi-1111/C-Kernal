@@ -33,7 +33,3 @@ A high-performance image compression project leveraging a custom-built K-Means c
 | `landscape.jpg`   | 163,450    | 3.17s       | 0.13s   | ~24×    |
 | `painting.jpg`    | 640,920    | 21.96s      | 0.55s   | ~40×    |
 
-## Setup & Usage
-1. Compile the C kernel using:
-   ```bash
-   gcc -O3 -shared -o libkernel.so -fPIC kernel.c
